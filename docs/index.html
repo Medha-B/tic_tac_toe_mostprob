@@ -1,39 +1,23 @@
-<html>
-	<head>
-		<!--
-		Tic Tac Toe with Minimax AI Algorithm
-		-->
-                <title>Mars Colonization Program - Tic Tac Toe</title>
-		<meta charset="UTF-8" />
-		<meta content="WeCode" name="author" />
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link type="text/css" rel="stylesheet" href="js_src/style.css" />
-		
-	</head>
-	<body>
-		<header>
-			<p>Welcome Crew Members!</p>
-			<p>Enjoy the game!</p>
-		</header>
-			<br />
-			<p id="message"></p>
-			<br />
-		        <table id="tab-tic-tac-toe" cellspacing="0">
-			<tr><td id="00" onclick="clickedCell(this)"></td><td id="01" onclick="clickedCell(this)"></td><td id="02" onclick="clickedCell(this)"></td></tr>
-			<tr><td id="10" onclick="clickedCell(this)"></td><td id="11" onclick="clickedCell(this)"></td><td id="12" onclick="clickedCell(this)"></td></tr>
-			<tr><td id="20" onclick="clickedCell(this)"></td><td id="21" onclick="clickedCell(this)"></td><td id="22" onclick="clickedCell(this)"></td></tr>
-		</table>
-		<br><br>
-		<input type="button" value="Start Game" id="bnt-restart" onclick="restartBnt(this)"/>
-		<br />
-		<div id="container">
-                <h2 id="playerTurn">It is X's turn</h2>
-                <button id="reset">Clear Board</button>
-                </div>
-		<script src="js_src/humanGame.js" async></script>
-                <script src="js_src/script2.js" async></script>
-		<footer>
-			<p>Brought to you by WeCode Team</p>
-		</footer>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe Game in JavaScript</title>
+<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+<link rel="stylesheet" href="js_src/style.css">
+<link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon"/>
+
+</head>
+
+
+<body>
+  
+  <div id="container">
+  <h2 id="playerTurn">It is X's turn</h2>
+  <button id="reset">Clear Board</button>
+  </div>
+
+  <script src="js_src/humanGame.js" async></script>
+  <script src="js_src/script2.js" async></script>
+</body>
 </html>
