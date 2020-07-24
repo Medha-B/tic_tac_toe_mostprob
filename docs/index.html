@@ -18,7 +18,7 @@
 			<br />
 			<p id="message"></p>
 			<br />
-		<table id="tab-tic-tac-toe" cellspacing="0">
+		        <table id="tab-tic-tac-toe" cellspacing="0">
 			<tr><td id="00" onclick="clickedCell(this)"></td><td id="01" onclick="clickedCell(this)"></td><td id="02" onclick="clickedCell(this)"></td></tr>
 			<tr><td id="10" onclick="clickedCell(this)"></td><td id="11" onclick="clickedCell(this)"></td><td id="12" onclick="clickedCell(this)"></td></tr>
 			<tr><td id="20" onclick="clickedCell(this)"></td><td id="21" onclick="clickedCell(this)"></td><td id="22" onclick="clickedCell(this)"></td></tr>
@@ -26,7 +26,10 @@
 		<br><br>
 		<input type="button" value="Start Game" id="bnt-restart" onclick="restartBnt(this)"/>
 		<br />
-		
+		<div id="container">
+                <h2 id="playerTurn">It is X's turn</h2>
+                <button id="reset">Clear Board</button>
+                </div>
 		<script src="js_src/humanGame.js" async></script>
                 <script src="js_src/script2.js" async></script>
 		<footer>
